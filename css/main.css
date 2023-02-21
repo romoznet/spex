@@ -5026,6 +5026,8 @@ body.is-cursor-active * {
 
 .blogCard__content {
   flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .blogCard.-type-1.-hover .blogCard__img {
@@ -5045,6 +5047,10 @@ body.is-cursor-active * {
   overflow: hidden;
   position: relative;
   z-index: 1;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .blogCard.-type-2 .blogCard__img {
