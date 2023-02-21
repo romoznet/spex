@@ -19,7 +19,7 @@
 
 /*!
  * headroom.js v0.11.0 - Give your page some headroom. Hide your header until you need it
- * Copyright (c) 2020 Nick Williams - http://wicky.nillia.ms/headroom.js
+ * Copyright (c) 2023 Nick Williams - http://wicky.nillia.ms/headroom.js
  * License: MIT
  */
 
@@ -75,7 +75,7 @@
  * CustomEase 3.2.6
  * https://greensock.com
  * 
- * @license Copyright 2020, GreenSock. All rights reserved.
+ * @license Copyright 2023, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
  */
@@ -87,7 +87,7 @@
  * GSAP 3.3.4
  * https://greensock.com
  * 
- * @license Copyright 2020, GreenSock. All rights reserved.
+ * @license Copyright 2023, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
  */
@@ -99,7 +99,7 @@
  * ScrollToPlugin 3.3.4
  * https://greensock.com
  * 
- * @license Copyright 2020, GreenSock. All rights reserved.
+ * @license Copyright 2023, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
  */
@@ -111,7 +111,7 @@
  * SplitText 3.3.4
  * https://greensock.com
  * 
- * @license Copyright 2020, GreenSock. All rights reserved.
+ * @license Copyright 2023, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
  */
@@ -123,7 +123,7 @@
  * DrawSVGPlugin 3.3.4
  * https://greensock.com
  * 
- * @license Copyright 2020, GreenSock. All rights reserved.
+ * @license Copyright 2023, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
  */

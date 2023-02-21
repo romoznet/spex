@@ -52,7 +52,129 @@
 
 
       <!-- header start -->
-      <header class="header -light -sticky-light js-header"></header>
+      <header class="header -light -sticky-light js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="index.html">
+              <img class="header__logo__light js-lazy" src="#" data-src="img/logo/logo-W.svg" alt="Logo">
+            </a>
+            <a data-barba href="index.html">
+              <img class="header__logo__dark js-lazy" src="#" data-src="img/logo/logo.svg" alt="Logo">
+            </a>
+          </div>
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <!-- link -->
+                      <li>
+                        <a data-barba href="index.html"> home </a>
+                      </li>
+                      <!-- link -->
+                      <li>
+                        <a data-barba href="about.html"> about us </a>
+                      </li>
+                      <!-- link -->
+                      <!-- <li class="menu-item-has-children">
+                <a href="#!"> servicers </a>
+                <ul class="subnav-list">
+                  <li>
+                    <a data-barba href="#!"> Overview </a>
+                  </li>
+                  <li>
+                    <a data-barba href="#!"> Human & Cultural Insights </a>
+                  </li>
+                  <li>
+                    <a data-barba href="#!"> Business Analytics </a>
+                  </li>
+                  <li>
+                    <a data-barba href="#!"> Solutions Architecture </a>
+                  </li>
+                </ul>
+              </li> -->
+                      <!-- link -->
+                      <li>
+                        <a data-barba href="services.html"> our services </a>
+                      </li>
+                      <!-- link -->
+                      <li>
+                        <a data-barba href="portfolio.html"> work </a>
+                      </li>
+                      <!-- link -->
+                      <li>
+                        <a data-barba href="blogs.html"> News </a>
+                      </li>
+                      <!-- link -->
+                      <li>
+                        <a data-barba href="contact.html"> Contact Us </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Address
+                      </h5>
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          Riyadh, Saudi Arabia
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Socials
+                      </h5>
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a data-barba href="#!">Instagram</a>
+                        <a data-barba href="#!">Linkedin</a>
+                        <a data-barba href="#!">Facebook</a>
+                        <a data-barba href="#!">Twitter</a>
+                        <a data-barba href="#!">Youtube</a>
+                      </div>
+                    </div>
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact Us
+                      </h5>
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="mailto:info@speX.com">info@speX.com</a>
+                        <a href="tel:+996012345678">+996 012345678</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
       <!-- header end -->
 
 
@@ -486,7 +608,81 @@
 
 
       <!-- footer start -->
-      <footer class="footer -type-1 bg-dark-1"></footer>
+      <footer class="footer -type-1 bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-auto col-sm-12">
+                <a href="index.html" class="footer__logo text-white">
+                  speX.
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <h4 class="text-xl fw-500 text-white">
+                  Studio
+                </h4>
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <p>Riyadh, Saudi Arabia</p>
+                  <p class="mt-8">info@speX.com</p>
+                  <p class="mt-8">+996 012345678</p>
+                </div>
+              </div>
+              <div class="col-lg-auto col-sm-4">
+                <h4 class="text-xl fw-500 text-white">
+                  Links
+                </h4>
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <div><a data-barba href="#!" class="button -underline"> Home </a></div>
+                  <div><a data-barba href="#!" class="button -underline mt-4"> About us </a></div>
+                  <div><a data-barba href="#!" class="button -underline mt-4"> Servicers </a></div>
+                  <div><a data-barba href="#!" class="button -underline mt-4"> News </a></div>
+                  <div><a data-barba href="#!" class="button -underline mt-4"> Careers </a></div>
+                  <div><a data-barba href="#!" class="button -underline mt-4"> Contact Us </a></div>
+                </div>
+              </div>
+              <div class="col-lg-auto col-auto">
+                <h4 class="text-xl fw-500 text-white">
+                  Follow us
+                </h4>
+                <div class="social -bordered mt-16 sm:mt-12">
+                  <a class="social__item text-white border-light" data-barba href="#!">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a class="social__item text-white border-light" data-barba href="#!">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                  <a class="social__item text-white border-light" data-barba href="#!">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                  <a class="social__item text-white border-light" data-barba href="#!">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a class="social__item text-white border-light" data-barba href="#!">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+          <div class="footer__bottom -light">
+            <!-- row start -->
+            <div class="row">
+              <div class="col">
+                <div class="footer__copyright">
+                  <p class="text-light">
+                    All rights reserved @ 2023 , speX .
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+        </div>
+        <!-- container end -->
+      </footer>
       <!-- footer end -->
 
 
@@ -499,11 +695,7 @@
   <!-- JavaScript -->
   <script src="js/vendors.js"></script>
   <script src="js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-  <script>
-    $("header").load("header.html");
-    $("footer").load("footer.html");
-  </script>
+  
 
 </body>
 
