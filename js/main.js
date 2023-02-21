@@ -159,8 +159,8 @@ const Preloader = (function() {
           }, {
             scaleY: 1,
             ease: 'none',
-            duration: 1,
-            delay: 0.3,
+            duration: .7,
+            delay: 0,
             onStart: () => {
               bg.classList.add('origin-top');
             }

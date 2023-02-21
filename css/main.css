@@ -12169,4 +12169,14 @@ html.full-page-slider body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.allServices .singleService {
+  background-color: #f5f6f8;
+}
+.allServices .singleService:nth-child(2n) {
+  background-color: #fff;
+}
+.allServices .singleService:nth-child(2n) .row {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=main.css.map */
