@@ -5368,7 +5368,6 @@ body.is-cursor-active * {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-
 }
 
 .blogCard.-type-1.-hover .blogCard__img {
@@ -5389,7 +5388,7 @@ body.is-cursor-active * {
   position: relative;
   z-index: 1;
 }
-.mt-auto{
+.mt-auto {
   margin-top: auto;
 }
 .blogCard.-type-2 .blogCard__img {
@@ -12579,15 +12578,18 @@ html.full-page-slider body {
   height: 100%;
 }
 
-.allServices{
-  .singleService{
+.allServices {
+  .singleService {
     background-color: #f5f6f8;
-    
-    &:nth-child(2n){
+
+    &:nth-child(2n) {
       background-color: #fff;
-      .row{
+      .row {
         flex-direction: row-reverse;
       }
     }
   }
+}
+body {
+  cursor: url("../img/logo/cur.svg"), auto;
 }

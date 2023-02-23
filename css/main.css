@@ -12185,4 +12185,8 @@ html.full-page-slider body {
 }
 .allServices .singleService:nth-child(2n) .row {
   flex-direction: row-reverse;
+}
+
+body {
+  cursor: url("../img/logo/cur.svg"), auto;
 }/*# sourceMappingURL=main.css.map */
