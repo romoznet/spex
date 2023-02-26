@@ -12593,3 +12593,8 @@ html.full-page-slider body {
 body {
   cursor: url("../img/logo/cur.svg"), auto;
 }
+
+.header .header__logo img {
+  object-fit: contain !important;
+  object-position: left !important;
+}

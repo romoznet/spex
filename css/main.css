@@ -12189,4 +12189,11 @@ html.full-page-slider body {
 
 body {
   cursor: url("../img/logo/cur.svg"), auto;
+}
+
+.header .header__logo img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  -o-object-position: left !important;
+     object-position: left !important;
 }/*# sourceMappingURL=main.css.map */
